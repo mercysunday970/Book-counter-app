@@ -1,0 +1,53 @@
+body {
+    background-image: url("library.jpg");
+    background-size: cover;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.container {
+    margin: auto;
+    height: 50%;
+    max-width: 50%;
+    border: 1px solid black;
+    background-color: rgba(89, 72, 72);
+    border-radius: 8px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: rgb(142, 116, 78);
+}
+
+#save-btn {
+    background: rgb(97, 235, 97);
+}
+
