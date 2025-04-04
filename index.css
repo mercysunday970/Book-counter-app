@@ -51,3 +51,14 @@ button {
     background: rgb(97, 235, 97);
 }
 
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .button {
+        width: 100%;
+        padding: 10px;
+    }
+}
